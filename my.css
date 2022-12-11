@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #7c3aed;
+    --off-white:  #f3f4f6;
+    --dark-gray: #64748b;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/**spces**/
+.margin-md {
+    margin: 2rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+.link {
+    text-decoration: none;
+    padding: o.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.list-non-bullet {
+    list-style: none;
+
+
+}
+.list-item-inline {
+    display: inline-block;
+    padding: 0rem 0.2rem;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+
+/**header**/
+
+.hero {
+    padding: 5rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/**section**/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
